@@ -30,9 +30,11 @@ public class ActorMBean implements Serializable {
     }    
 //retorna la lista de actores para mostrarse en una tabla de datos
     public List<Actor> getActors() {
+        
         if(actors == null || actors.isEmpty()){
             this.refresh();
         }
+        
         return actors;
     }
     
@@ -40,7 +42,8 @@ public class ActorMBean implements Serializable {
         actors = actorManager.getAllActors();
     }
     //retorna los detalles de un actor, util para mostrar en un formulario los detalles de un actor
-    public Actor getDetails(){
+    public Actor getActor(){
+        
         return actor;
     }
     //manejador de acciones que es llamado cuando se clickea una linea en la tabla

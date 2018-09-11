@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scene Scope="Project" version="2">
     <Scope Scope="Faces Configuration Only"/>
-    <Scope Scope="Project"/>
+    <Scope Scope="Project">
+        <Node id="ActorList.xhtml" x="142" y="113" zoom="true"/>
+        <Node id="ActorDetails.xhtml" x="221" y="395" zoom="true"/>
+    </Scope>
     <Scope Scope="All Faces Configurations"/>
 </Scene>
